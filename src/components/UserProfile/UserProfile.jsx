@@ -1,14 +1,13 @@
 import './UserProfile.css';
 import HeaderProfile from '../HeaderProfile/HeaderProfile';
 import FooterProfile from '../FooterProfile/FooterProfile';
-
-
+import LinkProfile from '../LinkProffile/LinkProfile';
 const UserProfile = () => {
     return (
         <body className="bodyUserProfile">
             <HeaderProfile/>
             <main class="container containerUser">
-
+                <LinkProfile/>
                 <section className="userSection">
 
                     <div className="userCenter">

@@ -1,6 +1,7 @@
 import './Setting.css';
 import HeaderProfile from '../HeaderProfile/HeaderProfile';
 import FooterProfile from '../FooterProfile/FooterProfile';
+import LinkProfile from '../LinkProffile/LinkProfile';
 
 
 const Setting = () => {
@@ -8,6 +9,7 @@ const Setting = () => {
         <body className="bodySetting">
             <HeaderProfile/>
             <main className="container containerSetting">
+                <LinkProfile/>
                 <section className="settingSection">
                     <div className="settingCenter">
 
