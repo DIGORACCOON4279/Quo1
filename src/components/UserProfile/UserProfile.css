@@ -122,6 +122,28 @@
     gap:10px;
 }
 
+.containerUser .userSection .userCenter .userBlock .userColumn #cardAvatar .headingCard .userPic{
+    width:50%;
+    height:auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn #cardAvatar .headingCard .userPic .avatar{
+    width:50%;
+    height:auto;
+}
+
+.containerUser .userSection .userCenter .userBlock .userColumn #cardAvatar .headingCard .userPic .icon{
+    width:24px;
+    height:auto;
+    position:absolute;
+    top:0;
+    right:10px;
+}
+
 .containerUser .userSection .userCenter .userBlock .userColumn #cardAvatar .footerCard{
     width:100%;
     height:auto;

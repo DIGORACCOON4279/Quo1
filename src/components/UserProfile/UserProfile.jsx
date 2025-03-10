@@ -26,7 +26,7 @@ const UserProfile = () => {
                                         <h3 className="titleCard">Avatar</h3>
                                         <div className="userPic">
                                             <img src="/img/avatarAcademia06.svg" alt="Avatar" className="avatar"/>
-                                            <img className="icon" src="/img/iconoCambiarFoto.svg" alt="Ilustración"/>
+                                            <img className="icon" src="/img/iconoCambiarFoto.svg" alt="Icon"/>
                                         </div>
                                     </div>
                                     <div className="footerCard">
