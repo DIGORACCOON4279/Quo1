@@ -13,7 +13,6 @@ const Welcome = () => {
                 <p className="sentence">Si deseas comenzar te invitamos a nuestra academia </p>
                 <Link to="../academyProfile" className="ctaAcademy">Academia Cripto</Link>
             </section>
-
         </section>
     )
 }

@@ -1,16 +1,13 @@
 import './Fees.css';
 
-const Fees = () => {
+const Fees = ({ title = "Tarifas y planes", subtitle = "En QUO, ofrecemos opciones flexibles para que explores el mundo cripto a tu ritmo", }) => {
     return (
         <section className="tarifasSection" id="tarifasSection">
             <div className="tarifasCenter">
 
                 <div className="heading">
-                    <h2 className="titleSection">Tarifas y Planes</h2>
-                    <p className="text">En QUO, ofrecemos opciones flexibles para
-                        que explores el mundo cripto a tu ritmo. Empieza con
-                        nuestro plan gratuito y mejora tu estrategia con
-                        herramientas avanzadas cuando estés listo.</p>
+                    <h2 className="titleSection">{title}</h2>
+                    <p className="text">{subtitle}</p>
                 </div>
 
                 <div className="tarifasSet">
