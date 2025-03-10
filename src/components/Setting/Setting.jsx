@@ -1,7 +1,7 @@
 import './Setting.css';
 import HeaderProfile from '../HeaderProfile/HeaderProfile';
 import FooterProfile from '../FooterProfile/FooterProfile';
-import LinkProfile from '../LinkProffile/LinkProfile';
+import LinkProfile from '../LinkProfile/LinkProfile';
 
 
 const Setting = () => {
