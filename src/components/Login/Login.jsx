@@ -1,4 +1,5 @@
 import './Login.css';
+import Loader from '../Loader/Loader';
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -14,6 +15,7 @@ const Login = () => {
 
     return (
         <main className="containerLogin">
+            <Loader/>
             <section className="leftSide">
                 <img className="ilustracion" src="../img/criptoBitcoin.webp" alt="Ilustración" />
                 <img className="ilustracion" src="../img/grupoCripto1.webp" alt="Ilustración" />

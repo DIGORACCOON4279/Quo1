@@ -1,4 +1,6 @@
 
+
+import Loader from '../Loader/Loader';
 import HeroSection from '../HeroSection/HeroSection';
 import Header from '../Header/Header';
 import Markets from '../Markets/Markets';
@@ -16,6 +18,7 @@ import './LandingPage.css';
 const LandingPage = () => {
     return (
         <body className='landingPage'>
+            <Loader/>
             <Header/>
             <HeroSection/>
             <Markets/>

@@ -1,11 +1,14 @@
 import './SignOut.css';
 import HeaderSignOut from '../HeaderSignOut/HeaderSignOut';
 import FooterProfile from '../FooterProfile/FooterProfile';
+import Loader from '../Loader/Loader';
+
 import { Link } from "react-router-dom";
 
 const SignOut = () => {
     return (
         <body className="bodySignOut">
+            <Loader/>
             <HeaderSignOut/>
             <main className="containerFarewell">
                 <section className="farewellSection">

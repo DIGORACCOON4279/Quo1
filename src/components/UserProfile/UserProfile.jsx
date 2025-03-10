@@ -8,7 +8,9 @@ const UserProfile = () => {
         <body className="bodyUserProfile">
             <HeaderProfile/>
             <main class="container containerUser">
+
                 <section className="userSection">
+
                     <div className="userCenter">
 
                         <section className="heading">
