@@ -288,7 +288,7 @@
 }
 
 .containerDashboard .dashboardSection .criptoCurrency .headingCriptocurrency .dropdownContainer select.dropdown{
-    width: 160px;
+    width: 170px;
     background-color: #1D1D1D;
     font-family: var(--fontFamilyIBM);
     color:#A4A4A4;
