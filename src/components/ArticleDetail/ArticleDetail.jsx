@@ -3,6 +3,7 @@ import articles from "../../data/articles";
 import Loader from '../Loader/Loader';
 import FooterProfile from "../FooterProfile/FooterProfile";
 import "./ArticleDetail.css"
+
 const ArticleDetail = () => {
     const { title } = useParams();
     const article = articles.find((a) => a.title === decodeURIComponent(title));
