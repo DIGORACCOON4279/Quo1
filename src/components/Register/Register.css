@@ -159,7 +159,7 @@
 /* Form */
 
 .containerRegister .rightSide .form{
-    width:50%;
+    width:300px;
     height:auto;
     gap:5px;
     display: flex;
