@@ -103,9 +103,10 @@
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
+    gap:20px;
     border-radius:20px;
     background-color:#393939;
-    padding:20px 30px;
+    padding:20px 30px 80px;
     font-family: var(--fontFamilyIBM);
     color:#A4A4A4;
     font-size: 0.8rem;
@@ -124,73 +125,71 @@
 
 
 
-/* .cryptoTable{
+.cryptoTable{
     width:100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #E4E4E4;
+    gap:20px;
 }
 
-.cryptoTable thead {
-    width:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #E4E4E4;
-}
-
-.cryptoTable thead tr{
+.cryptoTable .lineTitles{
     width:100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
-.cryptoTable tbody {
+.cryptoTable .lineTitles .titleTable{
+    width:auto;
+    font-family: var(--fontFamilyIBM);
+    color:#E4E4E4;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding:0px 30px;
+}
+
+.cryptoTable  .lineCriptos{
     width:100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap:10px;
-    background-color: #E4E4E4;
 }
 
-.cryptoTable tbody tr{
+.cryptoTable  .lineCriptos .cripto{
     width:100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 30px;
+    background-color: #444444;
+    border-radius: 10px;
 }
 
-.cryptoTable tbody tr td{
-    width:auto;
+.cryptoTable  .lineCriptos .cripto .item{
+    width:100%;
+    color:#A4A4A4;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.cryptoTable  .lineCriptos .cripto .item:nth-child(1){
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
-
 }
 
-.cryptoTable tbody tr td:nth-child(2){
-    width:auto;
+.cryptoTable  .lineCriptos .cripto .item:nth-child(2){
     text-align: center;
-
-} */
-
-.cryptoTable {
-    width: 100%;
-    /* border-collapse: collapse;
-    text-align: center; */
 }
 
-.cryptoTable thead {
-    width: 100%;
+.cryptoTable  .lineCriptos .cripto .item:nth-child(3){
+    text-align: right;
+
 }
 
-.cryptoTable thead tr{
-    width: 100%;
-    display: ;
-}

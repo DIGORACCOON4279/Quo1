@@ -21,29 +21,29 @@ const DashboardProfile = () => {
                     </section>
                     <section className="criptoCurrency">
                         <h3 className="titleBalance">Cripto monedas top</h3>
-                        <table className="cryptoTable">
-                            <thead>
-                                <tr>
-                                    <th>Cripto</th>
-                                    <th>USD</th>
-                                    <th>%</th>
-                                </tr>
-                            </thead>
-                            <tbody>
+                        <div className="cryptoTable">
+                            <section className="lineTitles">
+
+                                    <h4 className="titleTable">Cripto</h4>
+                                    <h4 className="titleTable">USD</h4>
+                                    <h4 className="titleTable">%</h4>
+
+                            </section>
+                            <section className="lineCriptos">
                                 {cryptocurrencies.map((crypto, index) => (
-                                    <tr key={index}>
-                                        <td>
+                                    <div className="cripto" key={index}>
+                                        <p className="item">
                                             <img src={crypto.icon} alt={crypto.name} width="22" height="22" style={{ marginRight: "8px" }} />
                                             {crypto.name}
-                                        </td>
-                                        <td>{crypto.price}</td>
-                                        <td style={{ color: crypto.change.includes('-') ? '#FF0000' : '#00DA4F', fontWeight: 'bold' }}>
+                                        </p>
+                                        <p className="item">{crypto.price}</p>
+                                        <p className="item" style={{ color: crypto.change.includes('-') ? '#FF0000' : '#00DA4F', fontWeight: 'bold' }}>
                                             {crypto.change}
-                                        </td>
-                                    </tr>
+                                        </p>
+                                    </div>
                                 ))}
-                            </tbody>
-                        </table>
+                            </section>
+                        </div>
                     </section>
                 </section>
             </main>
