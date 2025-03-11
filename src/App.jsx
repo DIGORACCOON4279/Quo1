@@ -7,6 +7,7 @@ import LandingPage from "./components/LandingPage/LandingPage";
 import Profile from "./components/Profile/Profile";
 import Portfolio from "./components/Portfolio/Portfolio";
 import AcademyProfile from "./components/AcademyProfile/AcademyProfile";
+import ArticleDetail from "./components/ArticleDetail/ArticleDetail";
 import Membership from "./components/Membership/Membership";
 import UserProfile from "./components/UserProfile/UserProfile";
 import Setting from "./components/Setting/Setting";
@@ -25,6 +26,7 @@ const App = () => {
                   <Route path="/profile" element={<Profile />}/>
                   <Route path="/portfolio" element={<Portfolio />}/>
                   <Route path="/academyProfile" element={<AcademyProfile />}/>
+                  <Route path="/article/:title" element={<ArticleDetail />} />
                   <Route path="/membership" element={<Membership />}/>
                   <Route path="/userProfile" element={<UserProfile />}/>
                   <Route path="/setting" element={<Setting />}/>
