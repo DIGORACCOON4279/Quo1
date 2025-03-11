@@ -4,6 +4,7 @@ import LinkProfile from '../LinkProfile/LinkProfile';
 import FooterProfile from '../FooterProfile/FooterProfile';
 // import Dropdown from '../Dropdown/Dropdown';
 import './DashboardProfile.css';
+import { Link } from 'react-router-dom';
 
 const DashboardProfile = () => {
 
@@ -61,20 +62,21 @@ const DashboardProfile = () => {
                             </section>
 
                             <input type="checkbox" id="toggleCrypto" />
-
                             <section className="lineCriptos">
-                                {cryptocurrencies.map((crypto, index) => (
-                                    <div className="cripto" key={index}>
-                                        <p className="item">
-                                            <img src={crypto.icon} alt={crypto.name} width="22" height="22" style={{ marginRight: "8px" }} />
-                                            {crypto.name}
-                                        </p>
-                                        <p className="item">{crypto.price}</p>
-                                        <p className="item" style={{ color: crypto.change.includes('-') ? '#FF0000' : '#00DA4F', fontWeight: 'bold' }}>
-                                            {crypto.change}
-                                        </p>
-                                    </div>
-                                ))}
+                                <Link to="../tradingProfile" className="linkToTrading">
+                                    {cryptocurrencies.map((crypto, index) => (
+                                        <div className="cripto" key={index}>
+                                            <p className="item">
+                                                <img src={crypto.icon} alt={crypto.name} width="22" height="22" style={{ marginRight: "8px" }} />
+                                                {crypto.name}
+                                            </p>
+                                            <p className="item">{crypto.price}</p>
+                                            <p className="item" style={{ color: crypto.change.includes('-') ? '#FF0000' : '#00DA4F', fontWeight: 'bold' }}>
+                                                {crypto.change}
+                                            </p>
+                                        </div>
+                                    ))}
+                                </Link>
                             </section>
 
                             <label htmlFor="toggleCrypto" className="toggleLabel">
