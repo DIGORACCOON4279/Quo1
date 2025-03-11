@@ -1,5 +1,5 @@
 
-.bodyDashboardProfile{
+.bodyDashboard{
     width:100vw;
     height:auto;
     background-color: #000000;
@@ -10,7 +10,7 @@
     margin: 0px auto;
 }
 
-.containerDashboardProfile{
+.containerDashboard{
     width:100%;
     height:auto;
     display: flex;
@@ -22,42 +22,175 @@
     margin: 130px auto;
 }
 
-.containerDashboardProfile .dashboardSection{
+.containerDashboard .dashboardSection{
     width:90%;
     max-width: 1200px;
     height:auto;
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap:15px;
     overflow: hidden;
     margin: auto;
 }
 
 /* Heading */
 
-.containerDashboardProfile .dashboardSection .heading{
+.containerDashboard .dashboardSection .heading{
     width:100%;
     height:auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 70px;
 }
 
-.containerDashboardProfile .dashboardSection .heading .titleSection{
+.containerDashboard .dashboardSection .heading .titleSection{
     font-family: var(--fontFamilyIBM);
     color:#A4A4A4;
     font-size: 2.1875rem;
     font-weight: 500;
 }
 
-.containerDashboardProfile .dashboardSection .heading .sentence{
+.containerDashboard .dashboardSection .heading .sentence{
     font-family: var(--fontFamilyIBM);
     color:#E4E4E4;
     font-size: 1rem;
     font-weight: 500;
     margin-bottom: 20px;
+}
+
+/* Initial Balance */
+
+.containerDashboard .dashboardSection .initialBalance{
+    width:100%;
+    height:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius:20px;
+    background-color:#172F1F;
+    padding:20px 30px;
+}
+
+.containerDashboard .dashboardSection .initialBalance .titleBalance{
+    width:auto;
+    height:auto;
+    align-self: self-start;
+    font-family: var(--fontFamilyIBM);
+    color:#E4E4E4;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.containerDashboard .dashboardSection .initialBalance .balance{
+    width:auto;
+    height:auto;
+    align-self: self-end;
+    font-family: var(--fontFamilyIBM);
+    color:#A4A4A4;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* CriptoCurrnency Table */
+
+.containerDashboard .dashboardSection .criptoCurrency{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    border-radius:20px;
+    background-color:#393939;
+    padding:20px 30px;
+    font-family: var(--fontFamilyIBM);
+    color:#A4A4A4;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.containerDashboard .dashboardSection .criptoCurrency .titleBalance{
+    width:auto;
+    height:auto;
+    align-self: self-start;
+    font-family: var(--fontFamilyIBM);
+    color:#E4E4E4;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+
+
+/* .cryptoTable{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4E4E4;
+}
+
+.cryptoTable thead {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4E4E4;
+}
+
+.cryptoTable thead tr{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cryptoTable tbody {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color: #E4E4E4;
+}
+
+.cryptoTable tbody tr{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cryptoTable tbody tr td{
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.cryptoTable tbody tr td:nth-child(2){
+    width:auto;
+    text-align: center;
+
+} */
+
+.cryptoTable {
+    width: 100%;
+    /* border-collapse: collapse;
+    text-align: center; */
+}
+
+.cryptoTable thead {
+    width: 100%;
+}
+
+.cryptoTable thead tr{
+    width: 100%;
+    display: ;
 }
