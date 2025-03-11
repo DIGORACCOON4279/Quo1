@@ -102,11 +102,10 @@
     height:auto;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     gap:20px;
     border-radius:20px;
     background-color:#393939;
-    padding:20px 30px 80px;
+    padding:20px 30px 20px;
     font-family: var(--fontFamilyIBM);
     color:#A4A4A4;
     font-size: 0.8rem;
@@ -127,11 +126,13 @@
 
 .cryptoTable{
     width:100%;
+    height:auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap:20px;
+    /* overflow: visible; */
 }
 
 .cryptoTable .lineTitles{
@@ -193,3 +194,55 @@
 
 }
 
+
+
+.cryptoTable {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: max-height 0.6s ease-in-out, opacity 0.6s ease-in-out;
+}
+
+.lineCriptos {
+    max-height: 200px; /* Muestra solo 3 criptos */
+    overflow: hidden;
+    transition: max-height 0.6s ease-in-out, opacity 0.6s ease-in-out;
+    opacity: 1;
+}
+
+/* Cuando el checkbox está marcado, se expande */
+#toggleCrypto:checked ~ .lineCriptos {
+    max-height: 600px;
+    opacity: 1;
+}
+
+/* Ocultar el checkbox */
+#toggleCrypto {
+    display: none;
+}
+
+.toggleLabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease-in-out;
+}
+
+.arrow {
+    width: auto;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+#toggleCrypto:checked ~ .toggleLabel .arrow {
+    transform: rotateX(180deg);
+}

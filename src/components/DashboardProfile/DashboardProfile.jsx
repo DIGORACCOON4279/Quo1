@@ -23,12 +23,13 @@ const DashboardProfile = () => {
                         <h3 className="titleBalance">Cripto monedas top</h3>
                         <div className="cryptoTable">
                             <section className="lineTitles">
-
-                                    <h4 className="titleTable">Cripto</h4>
-                                    <h4 className="titleTable">USD</h4>
-                                    <h4 className="titleTable">%</h4>
-
+                                <h4 className="titleTable">Cripto</h4>
+                                <h4 className="titleTable">USD</h4>
+                                <h4 className="titleTable">%</h4>
                             </section>
+
+                            <input type="checkbox" id="toggleCrypto" />
+
                             <section className="lineCriptos">
                                 {cryptocurrencies.map((crypto, index) => (
                                     <div className="cripto" key={index}>
@@ -43,6 +44,10 @@ const DashboardProfile = () => {
                                     </div>
                                 ))}
                             </section>
+
+                            <label for="toggleCrypto" className="toggleLabel">
+                                <img src="/img/iconoFlechaPlan.svg" alt="Icon arrow" className="arrow"/>
+                            </label>
                         </div>
                     </section>
                 </section>

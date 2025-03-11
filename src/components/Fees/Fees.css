@@ -242,7 +242,6 @@
     height:auto;
     transform:rotateX(0deg);
     transition:transform 0.2s ease-in-out;
-
 }
 .tarifasSection .tarifasCenter .tarifasSet .tarifaCard #openContextFree:checked + label.open .arrow{
     transform:rotateX(180deg);
