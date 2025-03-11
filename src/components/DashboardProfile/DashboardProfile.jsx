@@ -31,7 +31,7 @@ const DashboardProfile = () => {
                                     <option value="eur"> Unión Europea (EURO)</option>
                                 </select>
 
-                                <select class="dropdown">
+                                <select className="dropdown">
                                     <option value="" disabled selected>Conversión en dolares</option>
                                     <option value="ars"> Argentina (ARS)</option>
                                     <option value="bob"> Bolivia (BOB)</option>

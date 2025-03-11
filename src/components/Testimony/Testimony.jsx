@@ -39,7 +39,7 @@ const Testimony = () => {
                     </div>
                     <div className="card">
                         <article className="headingCard">
-                            <img src="/img/avatarTestimonio08.svg" alt="Avatar" class="avatar"/>
+                            <img src="/img/avatarTestimonio08.svg" alt="Avatar" className="avatar"/>
                             <div className="infoUser">
                                 <div className="user">
                                     <p className="name">Alejandro</p>

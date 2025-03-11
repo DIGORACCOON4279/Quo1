@@ -75,13 +75,13 @@ const Blog = () => {
                                 y proteger tus fondos en el mundo cripto.
                                 </p>
                             </div>
-                            <div class="footerCard">
+                            <div className="footerCard">
                                 <button type="button" className="activeBtn">Ver más</button>
                             </div>
                         </section>
                         <section className="blogCard">
                             <div className="headingCard">
-                                <img src="/img/avatarBlog04.svg" alt="" class="avatar"/>
+                                <img src="/img/avatarBlog04.svg" alt="" className="avatar"/>
                                 <div className="blogInfo">
                                     <h3 className="titleCard">¿El futuro de las finanzas?</h3>
                                     <p className="content">Finanzas descentralizadas explicadas fácil

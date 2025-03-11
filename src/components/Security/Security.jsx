@@ -12,7 +12,7 @@ const Security = () => {
                     <img src="/img/seguridadIcono02.webp" alt="Icono" className="images"/>
                     <img src="/img/seguridadIlustracion.webp" alt="Set Devices" className="images"/>
                     <img src="/img/seguridadIcono01.webp" alt="Icono" className="images"/>
-                    <div class="greenSpot"></div>
+                    <div className="greenSpot"></div>
                 </div>
             </div>
         </section>

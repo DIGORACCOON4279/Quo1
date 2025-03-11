@@ -7,7 +7,7 @@ const UserProfile = () => {
     return (
         <main className="bodyUserProfile">
             <HeaderProfile/>
-            <div class="container containerUser">
+            <div className="container containerUser">
                 <LinkProfile/>
                 <section className="userSection">
 

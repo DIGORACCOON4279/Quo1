@@ -31,7 +31,7 @@ const Faq = () => {
                                         <img src="/img/iconoMasFaq.svg" alt="ArrowDown Icon" className="plus"/>
                                     </div>
                                 </summary>
-                                <p class="infoFaq">QUO se conecta a APIs de proveedores como CoinGecko y Binance para
+                                <p className="infoFaq">QUO se conecta a APIs de proveedores como CoinGecko y Binance para
                                     ofrecer precios en tiempo real y permitir una simulación realista del mercado.
                                 </p>
                             </details>

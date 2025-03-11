@@ -107,28 +107,28 @@ const Fees = ({ title = "Tarifas y planes", subtitle = "En QUO, ofrecemos opcion
                                 </div>
                                 <div className="features">
                                     <img src="/img/iconoCheckVerde.svg" alt="Check" className="check"/>
-                                    <p class="option">Análisis avanzados y predicciones basadas en IA</p>
+                                    <p className="option">Análisis avanzados y predicciones basadas en IA</p>
                                 </div>
-                                <div class="features">
+                                <div className="features">
                                     <img src="/img/iconoCheckVerde.svg" alt="Check" className="check"/>
-                                    <p class="option">Estrategias automatizadas con backtesting</p>
+                                    <p className="option">Estrategias automatizadas con backtesting</p>
                                 </div>
-                                <div class="features">
+                                <div className="features">
                                     <img src="/img/iconoCheckVerde.svg" alt="Check" className="check"/>
-                                    <p class="option">Webinars y mentorías exclusivas con expertos del sector</p>
+                                    <p className="option">Webinars y mentorías exclusivas con expertos del sector</p>
                                 </div>
-                                <div class="features">
+                                <div className="features">
                                     <img src="/img/iconoCheckVerde.svg" alt="Check" className="check"/>
-                                    <p class="option">Descuento especial en futuras actualizaciones y nuevas funciones</p>
+                                    <p className="option">Descuento especial en futuras actualizaciones y nuevas funciones</p>
                                 </div>
-                                <div class="features">
+                                <div className="features">
                                     <img src="/img/iconoCheckVerde.svg" alt="Check" className="check"/>
-                                    <p class="option">Soporte VIP con atención prioritaria</p>
+                                    <p className="option">Soporte VIP con atención prioritaria</p>
                                 </div>
 
                             </section>
                             <section className="footerCard">
-                                <a href="#" class="link">Suscribete a Plan Premium</a>
+                                <a href="#" className="link">Suscribete a Plan Premium</a>
                             </section>
                         </div>
 

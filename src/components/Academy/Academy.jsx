@@ -117,11 +117,11 @@
 //                                         hasta staking
 //                                     </p>
 //                                 </div>
-//                                 <div class="footerCard">
-//                                     <img src="img/avatarAcademia02.svg" alt="" class="avatar"/>
+//                                 <div className="footerCard">
+//                                     <img src="img/avatarAcademia02.svg" alt="" className="avatar"/>
 //                                     <p className="content">Más allá de las inversiones
 //                                     </p>
-//                                     <img src="/img/flechaIconos02.svg" alt="Arrow right" class="arrowRight"/>
+//                                     <img src="/img/flechaIconos02.svg" alt="Arrow right" className="arrowRight"/>
 //                                 </div>
 //                             </section>
 //                             <section className="card">

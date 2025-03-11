@@ -29,7 +29,7 @@ const Markets = () => {
                             </div>
                         </div>
 
-                        <div class="card">
+                        <div className="card">
                             <div className="bodyCard">
                                 <h3 className="titleCard">Análisis y Rentabilidad</h3>
                                 <p className="textCard">Evalúa el rendimiento de tus inversiones simuladas y toma decisiones estratégicas sin riesgo</p>

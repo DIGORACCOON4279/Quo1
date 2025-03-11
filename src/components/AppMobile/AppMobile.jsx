@@ -23,7 +23,7 @@ const AppMobile = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="cellphoneImage">
+                    <div className="cellphoneImage">
                         <img src="/img/laptopDownload.webp" alt="Icon Cellphone" className="laptopDownload"/>
                     </div>
                 </section>

@@ -11,8 +11,8 @@ const Header = () => {
                         <img className="logotipo" src="/img/logotipo.svg" alt="Imagotipo"/>
                     </a>
                 </div>
-                <div class="itemOptions">
-                    <nav class="navbar">
+                <div className="itemOptions">
+                    <nav className="navbar">
                         <ul>
                             <li><a href="#mercadosSection" className="item">Mercados</a></li>
                             <li><a href="#tradingSection" className="item">Trading</a></li>

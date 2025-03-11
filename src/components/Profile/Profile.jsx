@@ -6,11 +6,11 @@ import FooterProfile from '../FooterProfile/FooterProfile';
 
 const Profile = () => {
     return (
-        <body className="bodyProfile">
+        <main className="bodyProfile">
             <HeaderProfile/>
             <Welcome/>
             <FooterProfile/>
-        </body>
+        </main>
     )
 }
 

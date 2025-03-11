@@ -22,19 +22,19 @@ const heroSection = () => {
                 <section className="heroSectionCards">
                     <div className="card">
                         <img src="/img/iconosHeroSection01.svg" alt="" className="image"/>
-                        <p class="text">Consulta precios actualizados de criptomonedas y monedas LATAM al instante.</p>
+                        <p className="text">Consulta precios actualizados de criptomonedas y monedas LATAM al instante.</p>
                     </div>
-                    <div class="card">
+                    <div className="card">
                         <img src="/img/iconosHeroSection02.svg" alt="" className="image"/>
-                        <p class="text">Opera con $1000 USD ficticios y prueba estrategias sin riesgo.</p>
+                        <p className="text">Opera con $1000 USD ficticios y prueba estrategias sin riesgo.</p>
                     </div>
-                    <div class="card">
+                    <div className="card">
                         <img src="/img/iconosHeroSection03.svg" alt="" className="image"/>
-                        <p class="text">Compara tus inversiones con la inflación y monedas locales.</p>
+                        <p className="text">Compara tus inversiones con la inflación y monedas locales.</p>
                     </div>
-                    <div class="card">
+                    <div className="card">
                         <img src="/img/iconosHeroSection04.svg" alt="" className="image"/>
-                        <p class="text">Accede a noticias y recursos para mejorar tus decisiones en cripto.</p>
+                        <p className="text">Accede a noticias y recursos para mejorar tus decisiones en cripto.</p>
                     </div>
                 </section>
 

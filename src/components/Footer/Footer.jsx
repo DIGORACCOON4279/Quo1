@@ -45,9 +45,9 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div class="download">
-                        <p class="textDownload">Encuentranos proximamente</p>
-                        <div class="appsDownload">
+                    <div className="download">
+                        <p className="textDownload">Encuentranos proximamente</p>
+                        <div className="appsDownload">
                             <a href="https://www.apple.com/co/app-store/" target="_blank" className="itemDownload">
                                 <img src="/img/imagenAppStore.webp" alt="Icon App Store" className="item"/>
                             </a>
@@ -57,16 +57,16 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div class="imageTriangle">
+                    <div className="imageTriangle">
                         <img src="/img/imagenFooter2.webp" alt="Image Triangles" className="triangleGraphic"/>
                     </div>
 
                 </div>
 
-                <div class="columnTwo">
+                <div className="columnTwo">
 
-                    <section class="itemOptions">
-                        <nav class="navbar">
+                    <section className="itemOptions">
+                        <nav className="navbar">
                             <ul>
                                 <li>
                                     <a href="#mercadosSection" className="item"><img src="/img/footerMercados.svg" alt="Icon Option" className="itemIcon"/> Mercados</a>
@@ -112,9 +112,9 @@ const Footer = () => {
                 </div>
             </section>
 
-            <div class="greenSpot"></div>
+            <div className="greenSpot"></div>
         </footer>
-        
+
     )
 }
 

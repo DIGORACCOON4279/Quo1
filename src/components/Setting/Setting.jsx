@@ -41,7 +41,7 @@ const Setting = () => {
                                     </div>
                                 </div>
                                 <div className="footerCard">
-                                    <button class="btn btnUpdate" type="button">Actualizar</button>
+                                    <button className="btn btnUpdate" type="button">Actualizar</button>
                                 </div>
                             </section>
                             <section className="card">
@@ -52,7 +52,7 @@ const Setting = () => {
                                     </div>
                                 </div>
                                 <div className="footerCard">
-                                    <button class="btn btndelete"type="button">Emilinar mi cuenta</button>
+                                    <button className="btn btndelete"type="button">Emilinar mi cuenta</button>
                                 </div>
                             </section>
                         </section>
