@@ -6,9 +6,9 @@ import ArticleList from '../ArticleList/ArticleList';
 
 const AcademyProfile = () => {
     return (
-        <body className="bodyAcademyProfile">
+        <main className="bodyAcademyProfile">
             <HeaderProfile/>
-            <main className="containerAcademyCripto">
+            <div className="containerAcademyCripto">
                 <LinkProfile/>
                 <section className="academyCriptoSection">
                     <section className="heading">
@@ -21,9 +21,9 @@ const AcademyProfile = () => {
                     </section>
                     <ArticleList/>
                 </section>
-            </main>
+            </div>
             <FooterProfile/>
-        </body>
+        </main>
     )
 }
 

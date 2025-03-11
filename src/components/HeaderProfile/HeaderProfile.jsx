@@ -8,7 +8,7 @@ const HeaderProfile = () => {
             <input type="checkbox" id="menu"/>
             <div className="headerCenter">
                 <div className="leftSide">
-                    <label for="menu" className="activeMenu">
+                    <label htmlFor="menu" className="activeMenu">
                         <img src="../img/iconoMenu.svg" alt="Icon Menu" className="menuIcon"/>
                     </label>
 
@@ -21,13 +21,13 @@ const HeaderProfile = () => {
             </div>
 
             <div className="darkScreen">
-                <label for="menu" className="activeMenu">
+                <label htmlFor="menu" className="activeMenu">
 
                 </label>
             </div>
 
             <div className="menuSide">
-                <label for="menu" className="activeMenu">
+                <label htmlFor="menu" className="activeMenu">
                     <img src="../img/iconoCerrar.svg" alt="Icon Menu" className="closeIcon"/>
                 </label>
                 <nav className="navbar">

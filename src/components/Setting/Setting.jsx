@@ -6,9 +6,9 @@ import LinkProfile from '../LinkProfile/LinkProfile';
 
 const Setting = () => {
     return (
-        <body className="bodySetting">
+        <main className="bodySetting">
             <HeaderProfile/>
-            <main className="container containerSetting">
+            <div className="container containerSetting">
                 <LinkProfile/>
                 <section className="settingSection">
                     <div className="settingCenter">
@@ -58,9 +58,9 @@ const Setting = () => {
                         </section>
                     </div>
                 </section>
-            </main>
+            </div>
             <FooterProfile/>
-        </body>
+        </main>
     )
 }
 

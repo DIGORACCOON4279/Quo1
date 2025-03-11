@@ -5,9 +5,9 @@ import LinkProfile from '../LinkProfile/LinkProfile';
 
 const UserProfile = () => {
     return (
-        <body className="bodyUserProfile">
+        <main className="bodyUserProfile">
             <HeaderProfile/>
-            <main class="container containerUser">
+            <div class="container containerUser">
                 <LinkProfile/>
                 <section className="userSection">
 
@@ -68,9 +68,9 @@ const UserProfile = () => {
                         </section>
                     </div>
                 </section>
-            </main>
+            </div>
             <FooterProfile/>
-        </body>
+        </main>
     )
 }
 

@@ -6,18 +6,18 @@ import { Link } from "react-router-dom";
 
 const Portfolio = () => {
     return (
-        <body className="bodyPortfolio">
+        <main className="bodyPortfolio">
             <HeaderProfile/>
-            <main className="containerPortfolio">
+            <div className="containerPortfolio">
                 <section className="PortfolioSection">
                     <h2 className="titleSection">Ninguna compra y/o venta realizada en tu portfolio aun </h2>
                     <img src="../img/ilustracionPorfolio.webp" alt="Ilustracion Portfolio" className="ilustracion"/>
                     <p className="sentence">Si deseas comenzar te invitamos a nuestra academia </p>
                     <Link to="../academyProfile" className="ctaAcademy">Academia Cripto</Link>
                 </section>
-            </main>
+            </div>
             <FooterProfile/>
-        </body>
+        </main>
     )
 }
 

@@ -8,9 +8,9 @@ import './DashboardProfile.css';
 const DashboardProfile = () => {
 
     return (
-        <body className="bodyDashboard">
+        <main className="bodyDashboard">
             <HeaderProfile />
-            <main className="containerDashboard">
+            <div className="containerDashboard">
                 <LinkProfile />
                 <section className="dashboardSection">
                     <section className="heading">
@@ -83,9 +83,9 @@ const DashboardProfile = () => {
                         </div>
                     </section>
                 </section>
-            </main>
+            </div>
             <FooterProfile />
-        </body>
+        </main>
     );
 };
 

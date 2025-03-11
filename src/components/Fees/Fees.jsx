@@ -31,12 +31,12 @@ const Fees = ({ title = "Tarifas y planes", subtitle = "En QUO, ofrecemos opcion
                         </section>
 
                         <input type="checkbox" id="openContextFree"/>
-                        <label for="openContextFree" className="open">
+                        <label htmlFor="openContextFree" className="open">
                             <img src="/img/iconoFlechaPlan.svg" alt="Icon arrow" className="arrow"/>
                         </label>
 
                         <div className="wrapped">
-                            <label for="openContextFree"></label>
+                            <label htmlFor="openContextFree"></label>
 
                             <section className="bodyCard">
                                 <div className="features">
@@ -94,12 +94,12 @@ const Fees = ({ title = "Tarifas y planes", subtitle = "En QUO, ofrecemos opcion
                         </section>
 
                         <input type="checkbox" id="openContextPremium"/>
-                        <label for="openContextPremium" className="open">
+                        <label htmlFor="openContextPremium" className="open">
                             <img src="/img/iconoFlechaPlan.svg" alt="Icon arrow" className="arrow"/>
                         </label>
 
                         <div className="wrapped">
-                            <label for="openContextPremium"></label>
+                            <label htmlFor="openContextPremium"></label>
                             <section className="bodyCard">
                                 <div className="features">
                                     <img src="/img/iconoCheckVerde.svg" alt="Check" className="check"/>
@@ -152,12 +152,12 @@ const Fees = ({ title = "Tarifas y planes", subtitle = "En QUO, ofrecemos opcion
                         </section>
 
                         <input type="checkbox" id="openContextPlatinum"/>
-                        <label for="openContextPlatinum" className="open">
+                        <label htmlFor="openContextPlatinum" className="open">
                             <img src="/img/iconoFlechaPlan.svg" alt="Icon arrow" className="arrow"/>
                         </label>
 
                         <div className="wrapped">
-                            <label for="openContextPlatinum"></label>
+                            <label htmlFor="openContextPlatinum"></label>
                             <section className="bodyCard">
                                 <div className="features">
                                     <img src="/img/iconoCheckVerde.svg" alt="Check" className="check"/>

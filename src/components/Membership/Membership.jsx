@@ -8,14 +8,14 @@ import Fees from '../Fees/Fees';
 const Membership = () => {
 
     return (
-        <body className="bodyMembership">
+        <main className="bodyMembership">
             <HeaderProfile/>
             <LinkProfile/>
             <div id="customFees">
                 <Fees title="Tarifas y Planes" subtitle="Preparado para el siguiente nivel" />
             </div>
             <FooterProfile/>
-        </body>
+        </main>
     )
 }
 

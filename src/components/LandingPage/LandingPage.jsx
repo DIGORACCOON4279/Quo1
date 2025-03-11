@@ -17,7 +17,7 @@ import './LandingPage.css';
 
 const LandingPage = () => {
     return (
-        <body className='landingPage'>
+        <div className='landingPage'>
             <Loader/>
             <Header/>
             <HeroSection/>
@@ -31,7 +31,7 @@ const LandingPage = () => {
             <Faq/>
             <AppMobile/>
             <Footer/>
-        </body>
+        </div>
     )
 }
 
