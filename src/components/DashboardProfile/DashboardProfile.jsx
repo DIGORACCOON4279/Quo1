@@ -2,9 +2,11 @@ import cryptocurrencies from '../../data/cryptocurrencies';
 import HeaderProfile from '../HeaderProfile/HeaderProfile';
 import LinkProfile from '../LinkProfile/LinkProfile';
 import FooterProfile from '../FooterProfile/FooterProfile';
+// import Dropdown from '../Dropdown/Dropdown';
 import './DashboardProfile.css';
 
 const DashboardProfile = () => {
+
     return (
         <body className="bodyDashboard">
             <HeaderProfile />
@@ -20,7 +22,37 @@ const DashboardProfile = () => {
                         <h3 className="balance">$1000 USD</h3>
                     </section>
                     <section className="criptoCurrency">
-                        <h3 className="titleBalance">Cripto monedas top</h3>
+                        <div className="headingCriptocurrency">
+                            <h3 className="titleBalance">Cripto monedas top</h3>
+                            <div className="dropdownContainer">
+                                <select className="dropdown">
+                                    <option value="" disabled selected>Valor en dolares</option>
+                                    <option value="usd">Estados Unidos (USD)</option>
+                                    <option value="eur"> Unión Europea (EURO)</option>
+                                </select>
+
+                                <select class="dropdown">
+                                    <option value="" disabled selected>Conversión en dolares</option>
+                                    <option value="ars"> Argentina (ARS)</option>
+                                    <option value="bob"> Bolivia (BOB)</option>
+                                    <option value="brl"> Brasil (BRL)</option>
+                                    <option value="clp"> Chile (CLP)</option>
+                                    <option value="cop"> Colombia (COP)</option>
+                                    <option value="crc"> Costa Rica (CRC)</option>
+                                    <option value="usd"> Ecuador (USD)</option>
+                                    <option value="gtq"> Guatemala (GTQ)</option>
+                                    <option value="hnl"> Honduras (HNL)</option>
+                                    <option value="mxn"> México (MXN)</option>
+                                    <option value="nio"> Nicaragua (NIO)</option>
+                                    <option value="pab"> Panamá (PAB) / (USD)</option>
+                                    <option value="pyg"> Paraguay (PYG)</option>
+                                    <option value="pen"> Perú (PEN)</option>
+                                    <option value="uyu"> Uruguay (UYU)</option>
+                                    <option value="ves"> Venezuela (VES)</option>
+                                </select>
+                            </div>
+                        </div>
+
                         <div className="cryptoTable">
                             <section className="lineTitles">
                                 <h4 className="titleTable">Cripto</h4>
@@ -45,7 +77,7 @@ const DashboardProfile = () => {
                                 ))}
                             </section>
 
-                            <label for="toggleCrypto" className="toggleLabel">
+                            <label htmlFor="toggleCrypto" className="toggleLabel">
                                 <img src="/img/iconoFlechaPlan.svg" alt="Icon arrow" className="arrow"/>
                             </label>
                         </div>

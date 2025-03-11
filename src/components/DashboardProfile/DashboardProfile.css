@@ -102,7 +102,7 @@
     height:auto;
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap:50px;
     border-radius:20px;
     background-color:#393939;
     padding:20px 30px 20px;
@@ -112,17 +112,14 @@
     font-weight: 500;
 }
 
-.containerDashboard .dashboardSection .criptoCurrency .titleBalance{
-    width:auto;
-    height:auto;
-    align-self: self-start;
-    font-family: var(--fontFamilyIBM);
-    color:#E4E4E4;
-    font-size: 1.25rem;
-    font-weight: 500;
-}
+/* Aca va HeadingCriptocurrency */
 
 
+
+
+
+
+/* CryptoTable */
 
 .cryptoTable{
     width:100%;
@@ -206,19 +203,17 @@
 }
 
 .lineCriptos {
-    max-height: 200px; /* Muestra solo 3 criptos */
+    max-height: 200px;
     overflow: hidden;
     transition: max-height 0.6s ease-in-out, opacity 0.6s ease-in-out;
     opacity: 1;
 }
 
-/* Cuando el checkbox está marcado, se expande */
 #toggleCrypto:checked ~ .lineCriptos {
     max-height: 600px;
     opacity: 1;
 }
 
-/* Ocultar el checkbox */
 #toggleCrypto {
     display: none;
 }
@@ -245,4 +240,79 @@
 
 #toggleCrypto:checked ~ .toggleLabel .arrow {
     transform: rotateX(180deg);
+}
+
+
+
+
+
+
+.containerDashboard .dashboardSection .criptoCurrency .headingCriptocurrency{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap:20px;
+}
+
+.containerDashboard .dashboardSection .criptoCurrency .headingCriptocurrency .titleBalance{
+    width:auto;
+    height:auto;
+    align-self: self-start;
+    font-family: var(--fontFamilyIBM);
+    color:#E4E4E4;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.containerDashboard .dashboardSection .criptoCurrency .headingCriptocurrency .dropdownContainer{
+    width:auto;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap:20px;
+    position: relative;
+}
+
+.containerDashboard .dashboardSection .criptoCurrency .headingCriptocurrency .dropdownContainer::after{
+    content: " ";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #A4A4A4;
+
+}
+
+.containerDashboard .dashboardSection .criptoCurrency .headingCriptocurrency .dropdownContainer select.dropdown{
+    width: 160px;
+    background-color: #1D1D1D;
+    font-family: var(--fontFamilyIBM);
+    color:#A4A4A4;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid #222222;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+.containerDashboard .dashboardSection .criptoCurrency .headingCriptocurrency .dropdownContainer select.dropdown option{
+    width:100%;
+    height:auto;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: var(--fontFamilyIBM);
+    color:#A4A4A4;
+    font-size: 0.8rem;
+    font-weight: 500;
+    background-color: #1D1D1D;
 }
