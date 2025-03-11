@@ -33,7 +33,7 @@ const HeaderProfile = () => {
                 <nav className="navbar">
                     <ul>
                         <li>
-                            <NavLink to="../dashboard" className="item">
+                            <NavLink to="../dashboardProfile" className="item">
                                 <img src="/img/iconoDashboard.svg" alt="Icon" className="img"/>
                                 Dashboard
                             </NavLink>

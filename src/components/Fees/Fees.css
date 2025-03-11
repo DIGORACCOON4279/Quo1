@@ -109,7 +109,7 @@
 
 }
 
-.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .headingCard .plan .text{
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .headingCard .plan .textOne{
     font-family: var(--fontFamilySpace);
     color:#707070;
     font-size: 0.75rem;
@@ -122,7 +122,7 @@
 
 /* Exception just Premium Plan */
 
-.tarifasSection .tarifasCenter .tarifasSet .premium .headingCard .plan .text{
+.tarifasSection .tarifasCenter .tarifasSet .premium .headingCard .plan .textPremium{
     font-family: var(--fontFamilySpace);
     color:#00FF66;
     font-size: 0.75rem;
@@ -176,7 +176,7 @@
     padding: 10px 15px;
 }
 
-.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .headingCard .motivationText .text{
+.tarifasSection .tarifasCenter .tarifasSet .tarifaCard .headingCard .motivationText .textTwo{
     font-family: var(--fontFamilySpace);
     color:#CECECE;
     font-size: 1rem;

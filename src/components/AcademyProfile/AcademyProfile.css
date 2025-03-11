@@ -13,12 +13,10 @@
     width:100%;
     height:auto;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    margin: 120px auto;
+    margin: 130px auto;
 }
 
 .containerAcademyCripto .academyCriptoSection{
@@ -27,7 +25,6 @@
     height:auto;
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
     overflow: hidden;

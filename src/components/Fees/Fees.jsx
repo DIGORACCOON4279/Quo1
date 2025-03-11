@@ -16,7 +16,7 @@ const Fees = ({ title = "Tarifas y planes", subtitle = "En QUO, ofrecemos opcion
                         <section className="headingCard">
                             <div className="plan">
                                 <p className="textPlan">Plan Free</p>
-                                <p className="text">Mensual</p>
+                                <p className="textOne">Mensual</p>
                             </div>
                             <div className="numbers">
                                 <p className="price">$0</p>
@@ -26,7 +26,7 @@ const Fees = ({ title = "Tarifas y planes", subtitle = "En QUO, ofrecemos opcion
                                 </div>
                             </div>
                             <div className="motivationText">
-                                <p className="text">Aprende sin riesgos</p>
+                                <p className="textTwo">Aprende sin riesgos</p>
                             </div>
                         </section>
 
@@ -79,7 +79,7 @@ const Fees = ({ title = "Tarifas y planes", subtitle = "En QUO, ofrecemos opcion
                         <section className="headingCard">
                             <div className="plan">
                                 <p className="textPlan">Plan Premium</p>
-                                <p className="text">Anual</p>
+                                <p className="textPremium">Anual</p>
                             </div>
                             <div className="numbers">
                                 <p className="price">$149.99</p>
@@ -89,7 +89,7 @@ const Fees = ({ title = "Tarifas y planes", subtitle = "En QUO, ofrecemos opcion
                                 </div>
                             </div>
                             <div className="motivationText">
-                                <p className="text">Tu mejor inversión</p>
+                                <p className="textTwo">Tu mejor inversión</p>
                             </div>
                         </section>
 
@@ -137,7 +137,7 @@ const Fees = ({ title = "Tarifas y planes", subtitle = "En QUO, ofrecemos opcion
                         <section className="headingCard">
                             <div className="plan">
                                 <p className="textPlan">Plan Platinum</p>
-                                <p className="text">Mensual</p>
+                                <p className="textOne">Mensual</p>
                             </div>
                             <div className="numbers">
                                 <p className="price">$14.99 </p>
@@ -147,7 +147,7 @@ const Fees = ({ title = "Tarifas y planes", subtitle = "En QUO, ofrecemos opcion
                                 </div>
                             </div>
                             <div className="motivationText">
-                                <p className="text">Potencia tu estrategia</p>
+                                <p className="textTwo">Potencia tu estrategia</p>
                             </div>
                         </section>
 

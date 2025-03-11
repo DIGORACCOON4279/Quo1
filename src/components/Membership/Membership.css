@@ -7,7 +7,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: -50px auto;
+    margin: -60px auto;
+}
+
+#customFees{
+    margin:0px auto 50px;
 }
 
 #customFees h2.titleSection{

@@ -5,6 +5,7 @@ import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
 import LandingPage from "./components/LandingPage/LandingPage";
 import Profile from "./components/Profile/Profile";
+import DashboardProfile from "./components/DashboardProfile/DashboardProfile";
 import Portfolio from "./components/Portfolio/Portfolio";
 import AcademyProfile from "./components/AcademyProfile/AcademyProfile";
 import ArticleDetail from "./components/ArticleDetail/ArticleDetail";
@@ -24,6 +25,7 @@ const App = () => {
                   <Route path="/login" element={<Login />}/>
                   <Route path="/register" element={<Register />}/>
                   <Route path="/profile" element={<Profile />}/>
+                  <Route path="/dashboardProfile" element={<DashboardProfile />}/>
                   <Route path="/portfolio" element={<Portfolio />}/>
                   <Route path="/academyProfile" element={<AcademyProfile />}/>
                   <Route path="/article/:title" element={<ArticleDetail />} />
