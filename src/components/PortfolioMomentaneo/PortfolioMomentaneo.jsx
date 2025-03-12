@@ -76,14 +76,24 @@ const PortfolioMomentaneo = () => {
                             <input type="checkbox" id="toggleTransaction" />
                             <section className="lineTransaction">
 
-
-                                        <div className="transactionPlace">
-                                            <p className="item">Hola</p>
-                                            <p className="item">Hola</p>
-                                            <p className="item">Hola</p>
-                                            <p className="item">Hola</p>
-                                        </div>
-
+                                <div className="transactionPlace">
+                                    <p className="item">18/05/2025 10:45pm</p>
+                                    <p className="item">Compra</p>
+                                    <p className="item">0.002 BTC @ $1,940,000 MXN</p>
+                                    <p className="item">Completado</p>
+                                </div>
+                                <div className="transactionPlace">
+                                    <p className="item">18/05/2025 10:46pm</p>
+                                    <p className="item">Tarifa aplicada</p>
+                                    <p className="item">$19.40 MXN</p>
+                                    <p className="item">Descontado</p>
+                                </div>
+                                <div className="transactionPlace">
+                                    <p className="item">18/05/2025 10:46pm</p>
+                                    <p className="item">Saldo restante</p>
+                                    <p className="item">$771.76 USD</p>
+                                    <p className="item">Disponible</p>
+                                </div>
 
                             </section>
 

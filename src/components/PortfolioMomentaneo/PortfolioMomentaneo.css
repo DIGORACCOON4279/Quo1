@@ -160,7 +160,7 @@
 }
 
 .transactionTable .lineTitles .titleTable{
-    width:auto;
+    width:100%;
     font-family: var(--fontFamilyIBM);
     color:#E4E4E4;
     font-size: 1.1rem;
@@ -168,8 +168,29 @@
     padding:0px 30px;
 }
 
+.transactionTable .lineTitles .titleTable:nth-child(1){
+    text-align: left;
+}
+
+.transactionTable .lineTitles .titleTable:nth-child(2){
+    text-align: center;
+}
+
+.transactionTable .lineTitles .titleTable:nth-child(3){
+    text-align: center;
+}
+
+.transactionTable .lineTitles .titleTable:nth-child(4){
+    text-align: right;
+}
+
 .transactionTable  .lineTransaction {
     width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
 }
 
 .transactionTable  .lineTransaction .linkToTrading{
@@ -193,7 +214,7 @@
 }
 
 .transactionTable  .lineTransaction .transactionPlace .item{
-    width:auto;
+    width:100%;
     color:#A4A4A4;
     font-size: 0.9rem;
     font-weight: 500;
@@ -201,7 +222,6 @@
 
 .transactionTable  .lineTransaction .transactionPlace .item:nth-child(1){
     text-align: left;
-
 }
 
 .transactionTable  .lineTransaction .transactionPlace .item:nth-child(2){
@@ -210,12 +230,10 @@
 
 .transactionTable  .lineTransaction .transactionPlace .item:nth-child(3){
     text-align: center;
-
 }
 
 .transactionTable  .lineTransaction .transactionPlace .item:nth-child(4){
-    text-align: center;
-
+    text-align: right;
 }
 
 /* CryptoTable */
