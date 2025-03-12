@@ -10,7 +10,7 @@ const PortfolioMomentaneo = () => {
 
 
     return (
-        <main class="bodyProfileMomentaneo">
+        <main className="bodyProfileMomentaneo">
             <HeaderProfile />
             <div className="containerProfileMomentaneo">
                 <LinkProfile />
