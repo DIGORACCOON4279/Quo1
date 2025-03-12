@@ -37,7 +37,7 @@ const PortfolioMomentaneo = () => {
                                     <img src="/img/iconoIncremento.svg" alt="Icon" className="iconProfitable" />
                                 </div>
 
-                                <div>
+                                <div className="divLink">
                                     <Link to="#" className="btn btnWhite">Comprar</Link>
                                 </div>
                             </div>
@@ -59,20 +59,20 @@ const PortfolioMomentaneo = () => {
                                     </div>
                                 </div>
 
-                                <div className="blockText">
+                                <div className="blockNumbers">
                                     <div className="textCard">
                                         <p className="text">Cambio en 24h</p>
                                         <p className="number">+2.5%</p>
                                     </div>
 
-                                    <div className="column">
-                                        <p className="titleSection">Tarida de transación</p>
-                                        <p className="time">$19.40 MXN</p>
+                                    <div className="textCard">
+                                        <p className="text">Tarida de transación</p>
+                                        <p className="number">$19.40 MXN</p>
                                     </div>
                                 </div>
 
-                                <div>
-                                    <Link to="#" className="btns btnGrey">Vender</Link>
+                                <div className="divLink">
+                                    <Link to="#" className="btn btnGrey">Vender</Link>
                                 </div>
                             </div>
 

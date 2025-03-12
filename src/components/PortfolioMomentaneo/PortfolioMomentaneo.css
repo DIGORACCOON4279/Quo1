@@ -91,15 +91,202 @@
     background-color: #172F1F;
     border-radius: 20px;
     padding: 30px;
+    overflow: hidden;
 }
 
-.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .titleCard{
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .headingCard{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:10px;
+    border-bottom: 1px solid #2F4836;
+    padding-bottom:20px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .headingCard .blockText{
     width:100%;
     font-family: var(--fontFamilyIBM);
     color:#E0E0E0;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     font-weight: 500;
 }
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .headingCard .blockText .text{
+    width:fit-content;
+    font-family: var(--fontFamilyIBM);
+    color:#172f1f;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: #637d6a;
+    padding:5px 10px;
+    border-radius:5px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .headingCard .blockText:nth-child(2){
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .headingCard .blockText:nth-child(2) .titleCard,
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .headingCard .blockText:nth-child(2) .number{
+    width:auto;
+    font-family: var(--fontFamilySpace);
+    color:#E0E0E0;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .imageIncrease{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom:0px;
+    padding:0px 70px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .imageIncrease .iconProfitable{
+    width:80px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .divLink{
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .divLink .btn{
+    width:auto;
+    font-family: var(--fontFamilyIBM);
+    color:#4E4E4E;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color:#ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+    padding:10px 25px;
+    border:none;
+    transition:0.3s ease-in-out;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards .card .divLink .btn:hover{
+    color:#ffffff;
+    background-color:#4d6754;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .headingCard .blockText{
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .headingCard .blockText .text{
+    background-color: transparent;
+    color:#929292;
+    padding: 5px 0px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .headingCard .blockText .textCard{
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .headingCard .blockText .textCard .iconProfitable{
+    width:16px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .headingCard .blockText:nth-child(2){
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .headingCard .blockText:nth-child(2) .text{
+    width:auto;
+    color:#929292;
+    font-family: var(--fontFamilySpace);
+    color:#E0E0E0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding:0px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .blockNumbers{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:5px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .blockNumbers .textCard{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .blockNumbers .textCard .text{
+    width:auto;
+    color:#929292;
+    font-family: var(--fontFamilySpace);
+    font-size: 1rem;
+    font-weight: 600;
+    padding:0px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .blockNumbers .textCard .number{
+    width:auto;
+    font-family: var(--fontFamilySpace);
+    color:#E0E0E0;
+    font-size: 1rem;
+    font-weight: 500;
+    padding:0px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .divLink{
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .divLink .btn{
+    width:auto;
+    font-family: var(--fontFamilyIBM);
+    font-size: 1rem;
+    font-weight: 500;
+    color:#ffffff;
+    background-color:#4E4E4E;
+    border-radius: 10px;
+    text-decoration: none;
+    padding:10px 25px;
+    border:none;
+    transition:0.3s ease-in-out;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardTwo .divLink .btn:hover{
+    color:#4E4E4E;
+    background-color:#ffffff;
+}
+
+
+
+
 
 /* Transaction Table */
 
