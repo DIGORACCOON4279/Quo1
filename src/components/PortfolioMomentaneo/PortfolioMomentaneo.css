@@ -284,6 +284,53 @@
     background-color:#ffffff;
 }
 
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardThree{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardThree .divLink{
+    width:auto;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: flex-start; */
+    gap:10px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardThree .divLink .btn{
+    width:auto;
+    font-family: var(--fontFamilyIBM);
+    font-size: 1rem;
+    font-weight: 500;
+    color:#ffffff;
+    background-color:#4E4E4E;
+    border-radius: 10px;
+    text-decoration: none;
+    padding:10px 25px;
+    border:none;
+    transition:0.3s ease-in-out;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardThree .divLink .btn:hover{
+    color:#4E4E4E;
+    background-color:#ffffff;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardThree .divLink .btnWhite{
+    color:#ffffff;
+    background-color:#00A732;
+    transition:0.3s ease-in-out;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards #cardThree .divLink .btnWhite:hover{
+   color:#ffffff;
+    background-color:#00C844;
+}
+
+
 
 
 
