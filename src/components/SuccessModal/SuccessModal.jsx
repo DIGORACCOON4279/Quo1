@@ -8,7 +8,7 @@ const SuccessModal = () => {
 
     return (
         <div className="modal">
-            <div className="modal-content">
+            <div className="modalContent">
                 <h2>Modal 3</h2>
                 <button onClick={() => navigate("/portfolioMomentaneo")}>Ver mi portfolio</button>
                 <button onClick={() => navigate("/dashboardProfile")}>Ir al dashboard</button>

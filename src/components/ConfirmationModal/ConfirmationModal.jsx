@@ -11,11 +11,11 @@ const ConfirmationModal = ({ onClose }) => {
 
             {!showNext ? (
                 <div className="modal">
-                <div className="modal-content">
-                    <h2>Modal 2</h2>
-                    <button onClick={() => setShowNext(true)}>Abrir Modal 3</button>
-                    <button onClick={onClose}>Cerrar</button>
-                </div>
+                    <div className="modalContent">
+                        <h2>Modal 2</h2>
+                        <button onClick={() => setShowNext(true)}>Confirmar compra</button>
+                        <button onClick={onClose}>Volver</button>
+                    </div>
                 </div>
             ) : (
                 <SuccessModal />
