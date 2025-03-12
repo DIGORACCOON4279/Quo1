@@ -17,53 +17,52 @@ const PortfolioMomentaneo = () => {
                 <section className="profileMomentaneoSection">
                     <section className="heading">
                         <h2 className="titleSection">Portfolio</h2>
-                        <p className="sentence">Comenzaremos con la simulación</p>
+                        <p className="sentence">Continuamos con la simulación</p>
                     </section>
                     <section className="cardBlock">
                         <div className="cards">
                             <div className="card">
                                 <div className="headingCard">
-                                    <div className="textCard">
-                                        <p className="titleCard">Saldo total USD $771.76l</p>
+                                    <div className="blockText">
+                                        <p className="text">Saldo total USD $771.76l</p>
                                     </div>
 
-                                    <div className="column">
-                                        <h3 className="titleSection">Ganancia/Perdida </h3>
-                                        <p className="time">+2.5%</p>
+                                    <div className="blockText">
+                                        <h3 className="titleCard">Ganancia/Perdida </h3>
+                                        <p className="number">+2.5%</p>
                                     </div>
                                 </div>
 
-
-                                <div className="bunchText">
+                                <div className="imageIncrease">
                                     <img src="/img/iconoIncremento.svg" alt="Icon" className="iconProfitable" />
                                 </div>
 
                                 <div>
-                                    <Link to="../balance" className="btn btnWhite">Comprar</Link>
+                                    <Link to="#" className="btn btnWhite">Comprar</Link>
                                 </div>
                             </div>
 
                             <div className="card" id="cardTwo">
 
                                 <div className="headingCard">
-                                    <div className="textCard">
-                                        <p className="titleCard">Cantidad  Poseida</p>
+                                    <div className="blockText">
+                                        <p className="text">Cantidad  Poseida</p>
                                         <div className="textCard">
                                             <img src="/img/isotipoCriptoDashboard09.svg" alt="Icon" className="iconProfitable" />
-                                            <p className="titleCard">Cantidad  Poseida</p>
+                                            <p className="titleCard">0.0002 BTC</p>
                                         </div>
                                     </div>
 
-                                    <div className="column">
-                                        <h3 className="titleSection">Valor actual</h3>
-                                        <p className="time">$3.888 MXN</p>
+                                    <div className="blockText">
+                                        <h3 className="text">Valor actual</h3>
+                                        <p className="number">$3.888 MXN</p>
                                     </div>
                                 </div>
 
-                                <div className="headingCard">
+                                <div className="blockText">
                                     <div className="textCard">
-                                        <p className="titleCard">Cambio en 24h</p>
-                                        <p className="titleCard">+2.5%</p>
+                                        <p className="text">Cambio en 24h</p>
+                                        <p className="number">+2.5%</p>
                                     </div>
 
                                     <div className="column">
@@ -84,7 +83,7 @@ const PortfolioMomentaneo = () => {
                                 </div>
 
                                 <div>
-                                    <Link to="#" className="btns btnGrey">Aprender a invertir</Link>
+                                    <Link to="/academyProfile" className="btns btnGrey">Aprender a invertir</Link>
                                     <Link to="#" className="btns btnGrey">Comprar</Link>
                                 </div>
                             </div>
