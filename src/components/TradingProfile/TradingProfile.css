@@ -225,7 +225,7 @@
 }
 
 .containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card{
-    width:max-content;
+    width:600px;
     height:250px;
     display: flex;
     flex-direction: column;
