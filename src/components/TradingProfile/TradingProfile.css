@@ -78,7 +78,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap:20px;
+    gap:30px;
 }
 
 .containerTradingProfile .tradingProfileSection .cardBlock .cards .card{
@@ -90,7 +90,7 @@
     align-items: flex-end;
     background-color: #172F1F;
     border-radius: 20px;
-    padding: 30px 40px;
+    padding: 30px;
 }
 
 .containerTradingProfile .tradingProfileSection .cardBlock .cards .card .titleCard{
@@ -191,7 +191,7 @@
     text-align: center;
 }
 
-/* comparationGraphic */
+/* ComparationGraphic */
 
 .containerTradingProfile .tradingProfileSection .comparationGraphic{
     width:100%;
@@ -201,7 +201,7 @@
     justify-content: center;
     background-color: #000E00;
     border-radius: 20px;
-    padding: 30px 40px;
+    padding: 30px;
 }
 
 .containerTradingProfile .tradingProfileSection .comparationGraphic .titleCard{
@@ -210,44 +210,117 @@
     color:#E4E4E4;
     font-size: 1rem;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .containerTradingProfile .tradingProfileSection .comparationGraphic .cards{
-    width:auto;
+    width:100%;
     height:auto;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
-    gap:100px;
+    gap:30px;
     margin:auto;
 }
 
 .containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card{
-    width:100%;
-    height:auto;
+    width:max-content;
+    height:250px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
+    background-color: #172F1F;
+    padding:30px;
+    border-radius: 10px;
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card .city{
+    width:100%;
+    margin-bottom:0px;
+    font-family: var(--fontFamilySpace);
+    color:#979797;
+    font-size: 1.3rem;
+    font-weight: 500;
     background-color: #172F1F;
 }
 
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card .bunchCripto{
+    width:auto;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card .bunchCripto .imageCripto{
+    width:16px;
+    height:auto;
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card .bunchCripto .item{
+    color:#637D6A;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: var(--fontFamilySpace);
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card .bunchCripto .item .acronism{
+    color:#00C844;
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card .price{
+    color:#637D6A;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: var(--fontFamilySpace);
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card .numberOne{
+    color:#6D6D6D;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: var(--fontFamilySpace);
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card .numberTwo{
+    color:#6D6D6D;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: var(--fontFamilySpace);
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap:10px;
+}
+
+.containerTradingProfile .tradingProfileSection .comparationGraphic .cards .card .numberTwo .percentage{
+    color:#00C844;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* Graphic */
+
 .containerTradingProfile .tradingProfileSection .comparationGraphic .cards .graphicBlock{
     width:100%;
-    height:auto;
+    height:250px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .containerTradingProfile .tradingProfileSection .comparationGraphic .cards .graphicBlock .graphic{
-    /* width:100%;
-    height:auto; */
+    width:100%;
+    height:100%;
 }
 
-/* GoToDashboard */
+/* GoToDashboard Link*/
 
 .containerTradingProfile .goToDashboard{
     width:90%;

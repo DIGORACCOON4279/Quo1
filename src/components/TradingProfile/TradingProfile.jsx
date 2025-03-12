@@ -61,11 +61,14 @@ const TradingProfile = () => {
                         <p className="titleCard">Compra</p>
                         <div className="cards">
                             <div className="card">
-                                <p className="item"><span className="ciudad">Mexico</span></p>
-                                <p className="item"><span className="peq">Bitcoin</span> <span className="por_var">BTC</span></p>
-                                <p className="item"><span className="peq">Precio BTC_Mex</span></p>
-                                <p className="item"><span className="num_big">$1.940.000</span></p>
-                                <p className="item"><span className="peq">$1.918.500 </span> <span className="por_var">+2.5%</span></p>
+                                <p className="city">Mexico</p>
+                                <div className="bunchCripto">
+                                    <img src="/img/isotipoCriptoDashboard09.svg" alt="Cripto" className="imageCripto" />
+                                    <p className="item">Bitcoin<span className="acronism"> BTC</span></p>
+                                </div>
+                                <p className="price">Precio BTC_Mex</p>
+                                <p className="numberOne">$1.940.000</p>
+                                <p className="numberTwo">$1.918.500<span className="percentage">+2.5%</span></p>
                             </div>
                             <div className="graphicBlock">
                                 <img className="graphic" src="/img/bitcoinGraphic.webp" alt="Ilustration"/>
