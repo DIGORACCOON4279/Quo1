@@ -79,7 +79,7 @@ const PortfolioMomentaneo = () => {
                             <div className="card" id="cardThree">
                                 <div className="heading">
                                     <p className="titleSection">Potencia tu inversión</p>
-                                    <p className="time">Explora nuevas oportunidades y haz crecer tu portafolio.</p>
+                                    <p className="sentence">Explora nuevas oportunidades y haz crecer tu portafolio.</p>
                                 </div>
 
                                 <div className="divLink">
