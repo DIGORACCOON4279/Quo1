@@ -207,12 +207,24 @@
 }
 
 .cryptoTable .lineTitles .titleTable{
-    width:auto;
+    width:100%;
     font-family: var(--fontFamilyIBM);
     color:#E4E4E4;
     font-size: 1.1rem;
     font-weight: 500;
     padding:0px 30px;
+}
+
+.cryptoTable .lineTitles .titleTable:nth-child(1){
+    text-align: left;
+}
+
+.cryptoTable .lineTitles .titleTable:nth-child(2){
+    text-align: center;
+}
+
+.cryptoTable .lineTitles .titleTable:nth-child(3){
+    text-align: right;
 }
 
 .cryptoTable  .lineCriptos {
