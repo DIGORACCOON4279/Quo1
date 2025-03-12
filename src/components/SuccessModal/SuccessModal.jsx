@@ -9,6 +9,7 @@ const SuccessModal = () => {
     return (
         <div className="modal">
             <div className="modalContent">
+                
                 <section className="headingModal">
                     <h2 className="titleModal">¡Compra realizada con éxito!</h2>
                 </section>
