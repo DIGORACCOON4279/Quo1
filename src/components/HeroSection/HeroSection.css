@@ -48,8 +48,9 @@
     height: auto;
     font-family: var(--fontFamilyIBM);
     color:#ffffff;
-    font-size: 4.062rem;
-    font-weight: 600;
+    font-size: 3.8rem;
+    font-weight: 900;
+    text-wrap:balance;
 }
 
 .heroSection .heroSectionCenter .heroSectionHeading .ctas{

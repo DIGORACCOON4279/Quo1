@@ -2,6 +2,7 @@
 
 
 .containerAcademyCripto .academyCriptoSection .academySlider .articleCard{
+    width:350px;
     text-decoration: none;
 }
 .containerAcademyCripto .academyCriptoSection .academySlider .articleCard .card{

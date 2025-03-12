@@ -195,6 +195,8 @@
     font-size: 1rem;
     font-weight: 500;
     padding:10px 25px;
+    border:none;
+    background-color: #1d1d1d;
     transition: 0.3s ease-in-out;
 }
 

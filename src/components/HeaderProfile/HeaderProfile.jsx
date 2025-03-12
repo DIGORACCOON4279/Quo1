@@ -1,7 +1,10 @@
 import './HeaderProfile.css';
 import { NavLink } from "react-router-dom";
+import { useSignOutModal } from "../../context/SignOutModalContext";
 
 const HeaderProfile = () => {
+    const { openModal } = useSignOutModal();
+
     return (
         <header className="headerProfile">
 
@@ -71,10 +74,10 @@ const HeaderProfile = () => {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="../signOut" className="item">
-                                <img src="/img/iconoSalir.svg" alt="Icon" className="img"/>
+                            <button onClick={openModal} className="item">
+                                <img src="/img/iconoSalir.svg" alt="Icon" className="img" />
                                 Salir
-                            </NavLink>
+                            </button>
                         </li>
                     </ul>
                 </nav>
