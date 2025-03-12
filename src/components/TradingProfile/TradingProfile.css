@@ -96,9 +96,11 @@
 .containerTradingProfile .tradingProfileSection .cardBlock .cards .card .titleCard{
     width:100%;
     font-family: var(--fontFamilyIBM);
-    color:#E0E0E0;
+    color:#b8b8b8;
     font-size: 1.5rem;
     font-weight: 500;
+    border-bottom: 1px solid #2F4836;
+    padding-bottom:20px;
 }
 
 .containerTradingProfile .tradingProfileSection .cardBlock .cards .card .bunchText{
@@ -123,7 +125,7 @@
 .containerTradingProfile .tradingProfileSection .cardBlock .cards .card .bunchText .column .time{
     width:100%;
     font-family: var(--fontFamilySpace);
-    color:#C9C9C9;
+    color:#979797;
     font-size: 1rem;
     font-weight: 600;
     display: flex;
@@ -173,7 +175,7 @@
     flex-direction: column;
     justify-content:flex-start;
     align-items: center ;
-    gap:60px;
+    gap:50px;
     margin:auto;
 }
 
@@ -202,7 +204,7 @@
 .containerTradingProfile .tradingProfileSection .comparationGraphic .titleCard{
     width:100%;
     font-family: var(--fontFamilyIBM);
-    color:#E0E0E0;
+    color:#b8b8b8;
     font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 30px;
