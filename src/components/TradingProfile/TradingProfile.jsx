@@ -21,23 +21,39 @@ const TradingProfile = () => {
                         <div className="cards">
                             <div className="card">
                                 <p className="titleCard">Precio de Compra</p>
-                                <p className="time">Hoy: <span className="number"> $1.940.000 MXN</span></p>
-                                <p className="time">Ayer: <span className="number">$7.893.000 MXN</span></p>
+                                <div className="bunchText">
+                                    <div className="column">
+                                        <p className="time">Hoy:</p>
+                                        <p className="time">Ayer:</p>
+                                    </div>
+                                    <div className="column">
+                                        <p className="number">$1.940.000 MXN</p>
+                                        <p className="number">$7.893.000 MXN</p>
+                                    </div>
+                                </div>
                                 <div>
-                                    <Link to="#" className="btn_tarjetas btn_grey">Comprar</Link>
+                                    <Link to="#" className="btn btnWhite">Comprar</Link>
                                 </div>
                             </div>
-                            <div className="card">
+                            <div className="card" id="cardSell">
                                 <p className="titleCard">Precio de Venta</p>
-                                <p className="time">Hoy: <span className="number">$1.918.500 MXN</span></p>
-                                <p className="time">Ayer: <span className="number">$7.872.000 MXN</span></p>
+                                <div className="bunchText">
+                                    <div className="column">
+                                        <p className="time">Hoy:</p>
+                                        <p className="time">Ayer:</p>
+                                    </div>
+                                    <div className="column">
+                                        <p className="number">$1.918.500 MXN</p>
+                                        <p className="number">$7.872.000 MXN</p>
+                                    </div>
+                                </div>
                                 <div>
-                                    <Link to="#" className="btn_tarjetas btn_grey">Vender</Link>
+                                    <Link to="#" className="btns btnGrey">Vender</Link>
                                 </div>
                             </div>
-                            <div className="card variation">
+                            <div className="card" id="variation">
                                 <p className="titleCard">Variación</p>
-                                <p className="percentage">+ 2.5%</p>
+                                <p className="percentage">+2.5%</p>
                             </div>
                         </div>
                     </section>
