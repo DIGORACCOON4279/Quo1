@@ -1,3 +1,4 @@
+
 import cryptocurrencies from '../../data/cryptocurrencies';
 import HeaderProfile from '../HeaderProfile/HeaderProfile';
 import LinkProfile from '../LinkProfile/LinkProfile';
