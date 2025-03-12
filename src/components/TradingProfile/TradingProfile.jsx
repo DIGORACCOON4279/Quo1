@@ -18,36 +18,38 @@ const TradingProfile = () => {
                         <p className="sentence">Comenzaremos con la simulación</p>
                     </section>
                     <section className="cardBlock">
-                        <div className="card">
-                            <div className="tarjetas">
+                        <div className="cards">
+                            <div className="card">
                                 <p className="titleCard">Precio de Compra</p>
-                                <p className="today">Hoy: <span className="numeros"> $1.940.000 MXN</span></p>
-                                <p className="yesterday">Ayer: <span className="numeros">$7.893.000 MXN</span></p>
-                                <Link to="#" className="btn_tarjetas btn_grey">Comprar</Link>
+                                <p className="time">Hoy: <span className="number"> $1.940.000 MXN</span></p>
+                                <p className="time">Ayer: <span className="number">$7.893.000 MXN</span></p>
+                                <div>
+                                    <Link to="#" className="btn_tarjetas btn_grey">Comprar</Link>
                                 </div>
-                            <div className="tarjetas">
-                                <p>Precio de Venta</p>
-                                <p>Hoy: <span className="number">$1.918.500 MXN</span></p>
-                                <p>Ayer: <span className="number">$7.872.000 MXN</span></p>
+                            </div>
+                            <div className="card">
+                                <p className="titleCard">Precio de Venta</p>
+                                <p className="time">Hoy: <span className="number">$1.918.500 MXN</span></p>
+                                <p className="time">Ayer: <span className="number">$7.872.000 MXN</span></p>
                                 <div>
                                     <Link to="#" className="btn_tarjetas btn_grey">Vender</Link>
                                 </div>
                             </div>
-                            <div className="tarjetas">
-                                <p>Variacion</p>
-                                <p className="porcentaje variacion">+ 2.5%</p>
+                            <div className="card variation">
+                                <p className="titleCard">Variación</p>
+                                <p className="percentage">+ 2.5%</p>
                             </div>
                         </div>
                     </section>
                     <section className="comparationGraphic">
                         <p className="titleCard">Compra</p>
-                        <div className="cards_2">
-                            <div className="cards_2_graf">
-                                <p className="cards_2_graf_p"><span className="ciudad">Mexico</span></p>
-                                <p className="cards_2_graf_p"><span className="peq">Bitcoin</span> <span className="por_var">BTC</span></p>
-                                <p className="cards_2_graf_p"><span className="peq">Precio BTC_Mex</span></p>
-                                <p className="cards_2_graf_p"><span className="num_big">$1.940.000</span></p>
-                                <p className="cards_2_graf_p"><span className="peq">$1.918.500 </span> <span className="por_var">+2.5%</span></p>
+                        <div className="cards">
+                            <div className="card">
+                                <p className="item"><span className="ciudad">Mexico</span></p>
+                                <p className="item"><span className="peq">Bitcoin</span> <span className="por_var">BTC</span></p>
+                                <p className="item"><span className="peq">Precio BTC_Mex</span></p>
+                                <p className="item"><span className="num_big">$1.940.000</span></p>
+                                <p className="item"><span className="peq">$1.918.500 </span> <span className="por_var">+2.5%</span></p>
                             </div>
                             <div className="graphicBlock">
                                 <img className="graphic" src="/img/bitcoinGraphic.webp" alt="Ilustration"/>
@@ -55,6 +57,9 @@ const TradingProfile = () => {
                         </div>
                     </section>
                 </section>
+                <div className="goToDashboard">
+                    <Link className="linkToDashboard" to="../dashboardProfile">Retornar dashboard</Link>
+                </div>
             </div>
             <FooterProfile />
         </main>
