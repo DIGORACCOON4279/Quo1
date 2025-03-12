@@ -66,13 +66,12 @@
     align-items: flex-start;
     gap:65px;
     overflow: hidden;
-
 }
 
 /* Blog */
 
 .blogSection .blogCenter .blogSlider .blogBlock{
-    width:auto;
+    width:max-content;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -133,7 +132,7 @@
     font-weight: 600;
     text-align: left;
     display: -webkit-box;
-    -webkit-line-clamp: 2; /* Cambia a 4 si quieres 4 líneas */
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -146,7 +145,7 @@
     font-weight: 300;
     text-align: left;
     display: -webkit-box;
-    -webkit-line-clamp: 2; /* Cambia a 4 si quieres 4 líneas */
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;

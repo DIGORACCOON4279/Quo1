@@ -1,4 +1,6 @@
 
+// Codigo sin React o JS comentado
+
 // const Blog = () => {
 
 //     return (
@@ -298,7 +300,7 @@ const totalSlides = cards.length;
 const updateSlider = () => {
     if (cardSliderRef.current) {
         const cardWidth = cardSliderRef.current.children[0].offsetWidth;
-        const offset = -(currentIndex * (cardWidth + 80)); // 80px es el gap
+        const offset = -(currentIndex * ( cardWidth - 65 ));
         cardSliderRef.current.style.transition = "transform 0.5s ease-in-out";
         cardSliderRef.current.style.transform = `translateX(${offset}px)`;
     }
