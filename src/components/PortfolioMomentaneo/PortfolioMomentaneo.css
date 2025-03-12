@@ -256,7 +256,7 @@
 
 .transactionTable  .lineTransaction .transactionPlace:nth-child(4) .item,
 .transactionTable  .lineTransaction .transactionPlace:nth-child(5) .item{
-    color:#d6d6d6;
+    color:#e7e7e7;
     text-align: center;
 }
 
@@ -273,14 +273,14 @@
 }
 
 .lineTransaction {
-    max-height: 500px;
+    max-height: 140px;
     overflow: hidden;
     transition: max-height 0.6s ease-in-out, opacity 0.6s ease-in-out;
     opacity: 1;
 }
 
 #toggleTransaction:checked ~ .lineTransaction {
-    max-height: 140px;
+    max-height: 500px;
     opacity: 1;
 }
 
