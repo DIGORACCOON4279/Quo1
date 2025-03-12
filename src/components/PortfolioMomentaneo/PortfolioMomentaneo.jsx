@@ -94,6 +94,12 @@ const PortfolioMomentaneo = () => {
                                     <p className="item">$771.76 USD</p>
                                     <p className="item">Disponible</p>
                                 </div>
+                                <div className="transactionPlace">
+                                    <p className="item">No más transacciones hasta el momento 😓🔍</p>
+                                </div>
+                                <div className="transactionPlace">
+                                    <p className="item">Te invitamos a seguir en marcha con tu aprendizaje ⚡💪</p>
+                                </div>
 
                             </section>
 

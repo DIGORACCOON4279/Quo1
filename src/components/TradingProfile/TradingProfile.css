@@ -202,8 +202,8 @@
 .containerTradingProfile .tradingProfileSection .comparationGraphic .titleCard{
     width:100%;
     font-family: var(--fontFamilyIBM);
-    color:#E4E4E4;
-    font-size: 1rem;
+    color:#E0E0E0;
+    font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 30px;
 }
