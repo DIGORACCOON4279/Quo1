@@ -34,10 +34,16 @@ const TradingProfile = () => {
                                         <p className="number">$7.893.000 MXN</p>
                                     </div>
                                 </div>
+
+                                {/* <div>
+                                    <BalanceModal className="btnWhite"/>
+                                </div> */}
+
                                 <div>
-                                    <button className="btn btnWhite" onClick={() => setShowModal(true)}>Comprar</button>
-                                    {showModal && <BalanceModal />}
+                                    {!showModal && <BalanceModal onClick={() => setShowModal(true)}>Comprar</BalanceModal>}
+                                    {showModal && <BalanceModal onClose={() => setShowModal(false)} />}
                                 </div>
+
                             </div>
                             <div className="card" id="cardSell">
                                 <p className="titleCard">Precio de Venta</p>
@@ -61,6 +67,7 @@ const TradingProfile = () => {
                             </div>
                         </div>
                     </section>
+
                     <section className="comparationGraphic">
                         <p className="titleCard">Compra</p>
                         <div className="cards">

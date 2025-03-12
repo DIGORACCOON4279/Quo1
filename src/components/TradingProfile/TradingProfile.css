@@ -142,7 +142,6 @@
 
 /* Selling or buying Links */
 
-.containerTradingProfile .tradingProfileSection .cardBlock .cards .card .btn,
 .containerTradingProfile .tradingProfileSection .cardBlock .cards #cardSell .btnGrey{
     width:auto;
     font-family: var(--fontFamilyIBM);
@@ -160,11 +159,6 @@
 .containerTradingProfile .tradingProfileSection .cardBlock .cards #cardSell .btnGrey{
     color:#ffffff;
     background-color:#4E4E4E;
-}
-
-.containerTradingProfile .tradingProfileSection .cardBlock .cards .card .btn:hover{
-    background-color:#4D6754;
-    color:#ffffff;
 }
 
 .containerTradingProfile .tradingProfileSection .cardBlock .cards #cardSell .btnGrey:hover{

@@ -20,31 +20,52 @@
     padding: 2rem;
     border-radius: 12px; /* Bordes redondeados */
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8); /* Sombra para destacar */
-    max-width: 500px; /* Ancho máximo */
-    width: 90%; /* Adaptable a la pantalla */
-    color: white; /* Texto blanco */
-    opacity: 0; /* Oculta el contenido al inicio */
-    animation: slideIn 0.5s ease-in-out forwards; /* Deslizamiento suave */
+    max-width: 500px; 
+    width: 90%;
+    color: white;
+    opacity: 0;
+    animation: slideIn 0.5s ease-in-out forwards;
   }
 
-  /* Animación de desvanecimiento (fondo) */
+
   @keyframes fadeIn {
     from {
-      opacity: 0; /* Oculto al inicio */
-    }
-    to {
-      opacity: 1; /* Visible al final */
-    }
-  }
-
-  /* Animación de deslizamiento (contenido) */
-  @keyframes slideIn {
-    from {
-      transform: translateY(30px); /* Desplaza hacia abajo */
       opacity: 0;
     }
     to {
-      transform: translateY(0); /* Sube suavemente */
       opacity: 1;
     }
   }
+
+
+  @keyframes slideIn {
+    from {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+
+
+.btnWhite{
+    width:auto;
+    font-family: var(--fontFamilyIBM);
+    color:#4E4E4E;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color:#ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+    padding:10px 25px;
+    border:none;
+    transition:0.3s ease-in-out;
+}
+
+.btnWhite:hover{
+    background-color:#4D6754;
+    color:#ffffff;
+}
