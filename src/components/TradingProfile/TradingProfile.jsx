@@ -1,5 +1,6 @@
 
-
+import React, { useState } from "react";
+import BalanceModal from "../BalanceModal/BalanceModal";
 import HeaderProfile from '../HeaderProfile/HeaderProfile';
 import LinkProfile from '../LinkProfile/LinkProfile';
 import FooterProfile from '../FooterProfile/FooterProfile';
@@ -7,6 +8,8 @@ import { Link } from "react-router-dom";
 import './TradingProfile.css';
 
 const TradingProfile = () => {
+    const [showModal, setShowModal] = useState(false);
+
     return (
         <main class="bodyTradingProfile">
             <HeaderProfile />
@@ -32,7 +35,8 @@ const TradingProfile = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <Link to="#" className="btn btnWhite">Comprar</Link>
+                                    <button className="btn btnWhite" onClick={() => setShowModal(true)}>Comprar</button>
+                                    {showModal && <BalanceModal />}
                                 </div>
                             </div>
                             <div className="card" id="cardSell">
