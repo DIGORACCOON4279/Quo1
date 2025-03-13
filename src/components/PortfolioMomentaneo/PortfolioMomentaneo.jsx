@@ -20,6 +20,12 @@ const PortfolioMomentaneo = () => {
                         <p className="sentence">Continuamos con la simulación</p>
                     </section>
                     <section className="cardBlock">
+
+                        <div className="directionArrows">
+                            <img className="arrowLeft" id="previousCard" src="/img/flechaIconos01.svg" alt="Arrow left" onClick={() => moveSlide(-1)} />
+                            <img className="arrowRight" id="nextCard" src="/img/flechaIconos02.svg" alt="Arrow Right" onClick={() => moveSlide(1)} />
+                        </div>
+
                         <div className="cards">
                             <div className="card">
                                 <div className="headingCard">
@@ -89,6 +95,7 @@ const PortfolioMomentaneo = () => {
                             </div>
 
                         </div>
+
                     </section>
                     <section className="transactionBlock">
 

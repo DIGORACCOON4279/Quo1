@@ -19,7 +19,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: 130px auto;
 }
 
@@ -33,7 +33,7 @@
     justify-content: center;
     align-items: center;
     gap:40px;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: auto;
 }
 
@@ -69,6 +69,34 @@
     height:auto;
     display: flex;
     justify-content: center;
+    position:relative;
+
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .directionArrows{
+    width:auto;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .directionArrows .arrowLeft,
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .directionArrows .arrowRight{
+    width:40px;
+    height:auto;
+    position:absolute;
+    background-color: #393939;
+    transition:0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .directionArrows .arrowLeft{
+    left:-50px;
+}
+
+.containerProfileMomentaneo .profileMomentaneoSection .cardBlock .directionArrows .arrowRight{
+    right:-50px;
 }
 
 .containerProfileMomentaneo .profileMomentaneoSection .cardBlock .cards{
