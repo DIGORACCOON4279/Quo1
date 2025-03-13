@@ -60,18 +60,18 @@ const articles = [
         author: "Emma Richardson",
         image: "/img/ilustracionAcademia04.webp",
         content: `Para operar con criptomonedas de manera eficiente, es fundamental comprender cómo analizar
-        el mercado y tomar decisiones informadas. Existen dos enfoques principales: el análisis técnico y el
-        análisis fundamental. El análisis técnico se basa en el estudio de gráficos, tendencias y patrones de
-        precios históricos para predecir movimientos futuros. Utiliza herramientas como medias móviles, soportes
-        y resistencias, y osciladores como el RSI para identificar oportunidades de compra o venta. Por otro lado,
-        el análisis fundamental se centra en evaluar el valor intrínseco de un activo considerando factores como
-        el equipo de desarrollo, la adopción del proyecto, sus asociaciones estratégicas y el panorama regulatorio.
-        En el caso de las criptomonedas, esto incluye analizar el whitepaper del proyecto, su tokenomics y la
-        actividad en su red blockchain. Sin embargo, la volatilidad extrema del mercado cripto significa que incluso
-        los análisis más detallados pueden verse afectados por eventos inesperados, como regulaciones gubernamentales
-        o cambios en la confianza del mercado. Por ello, es recomendable combinar ambos tipos de análisis y mantener
-        una gestión de riesgos adecuada, diversificando inversiones y utilizando herramientas como stop-loss para
-        minimizar pérdidas en caso de movimientos bruscos del mercado.`
+                el mercado y tomar decisiones informadas. Existen dos enfoques principales: el análisis técnico y el
+                análisis fundamental. El análisis técnico se basa en el estudio de gráficos, tendencias y patrones de
+                precios históricos para predecir movimientos futuros. Utiliza herramientas como medias móviles, soportes
+                y resistencias, y osciladores como el RSI para identificar oportunidades de compra o venta. Por otro lado,
+                el análisis fundamental se centra en evaluar el valor intrínseco de un activo considerando factores como
+                el equipo de desarrollo, la adopción del proyecto, sus asociaciones estratégicas y el panorama regulatorio.
+                En el caso de las criptomonedas, esto incluye analizar el whitepaper del proyecto, su tokenomics y la
+                actividad en su red blockchain. Sin embargo, la volatilidad extrema del mercado cripto significa que incluso
+                los análisis más detallados pueden verse afectados por eventos inesperados, como regulaciones gubernamentales
+                o cambios en la confianza del mercado. Por ello, es recomendable combinar ambos tipos de análisis y mantener
+                una gestión de riesgos adecuada, diversificando inversiones y utilizando herramientas como stop-loss para
+                minimizar pérdidas en caso de movimientos bruscos del mercado.`
     },
     {
         id: 4,

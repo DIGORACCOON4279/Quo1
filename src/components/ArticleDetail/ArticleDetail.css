@@ -119,11 +119,6 @@
     gap:5px;
 }
 
-.articleDetailContainer .articleDetailSection .bodyArticle .headingBody .icons{
-    width:auto;
-    height:auto;
-}
-
 .articleDetailContainer .articleDetailSection .bodyArticle .headingBody .icons .icon{
     width:auto;
     height:auto;
@@ -133,7 +128,7 @@
 }
 
 .articleDetailContainer .articleDetailSection .bodyArticle .headingBody .icons .icon:hover{
-    background-color: #f5f5f5;
+    background-color: #e4e4e4;
 }
 
 /* Content Article */
