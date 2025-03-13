@@ -11,7 +11,7 @@ const TradingProfile = () => {
     const [showModal, setShowModal] = useState(false);
 
     return (
-        <main class="bodyTradingProfile">
+        <main className="bodyTradingProfile">
             <HeaderProfile />
             <div className="containerTradingProfile">
                 <LinkProfile />

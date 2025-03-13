@@ -5,7 +5,7 @@ const FooterProfile = () => {
         <footer className="containerFooter">
             <section className="socialNetworkIcons">
                 <section className="socialItems">
-                    <a href="https://web.telegram.org/k/" target="_blank" class="item">
+                    <a href="https://web.telegram.org/k/" target="_blank" className="item">
                         <img src="/img/iconosRedesSociales01.svg" alt="Icon Social" className="iconSocial"/>
                     </a>
                     <a href="https://redditinc.com/" target="_blank" className="item">
